@@ -7,9 +7,17 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <h1>Hello World</h1>
-      <Link href="./users">Users</Link>
-      <ProductCard />
+      <div>
+        <h1>Welcome to the Home Page</h1>
+        <Image
+          src="/cover.png" // Specify the path to your image in the "public" directory
+          alt="Main Image"
+          width={600} // Set the width of the image
+          height={400} // Set the height of the image
+        />
+      </div>
+
+
     </main>
   )
 }
