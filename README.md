@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### References
 
 - [Setup Nextjs on Github pages video](https://medium.com/@ayyazzafar/how-to-host-next-js-app-on-github-pages-using-github-actions-ci-cd-35c413074bd4)
+- [Next JS youtube tutorial](https://www.youtube.com/watch?v=ZVnjOPwW4ZA)
