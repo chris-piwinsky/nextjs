@@ -16,7 +16,7 @@ export default function Home() {
 
                 Always entertaining, sometimes controversial, the Salty Curmudgeons share their thoughts on culture, lifestyle, current events, and sports.
 
-                We’ve got something to say!  The Salty Curmudgeons share their thoughts on culture, lifestyle, current events, and sports.
+                We have got something to say!  The Salty Curmudgeons share their thoughts on culture, lifestyle, current events, and sports.
 
                 Not afraid to speak their minds, the Salty Curmudgeons share their thoughts on culture, lifestyle, current events, and sports.
 
