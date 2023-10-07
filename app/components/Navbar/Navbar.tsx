@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
             src="./transparent.png"
             alt="Logo"
             className={styles.navbarLogo}
-            width={100}
+            width={50}
             height={50}
           />
           <ul className={`flex space-x-4 ${styles.navLinks}`}>

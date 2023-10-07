@@ -7,17 +7,6 @@ const About: React.FC = () => {
     return (
         <Layout>
             <main className="page">
-                <div className={`${styles.characterSummary}`}>
-                    {/* Overall */}
-                    <div className={styles.characterContent}>
-                        <div className={styles.characterDescription}>
-                            <h2>
-                                <span className={styles.characterName}>Salty curmudgeons are people who are irritable, cantankerous and often sarcastic. They are usually older individuals who have lived through many society changes and feel that newer generations dont understand or appreciate the value of their experience. They are quick to criticize and may seem intimidating or unpleasant, but their gruff exterior often hides a wealth of knowledge and wisdom. While dealing with salty curmudgeons can be a challenge, it is important to remember that we can learn a lot from their life lessons and perspectives if we approach them with patience and an open mind.</span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
                 <div className={styles.characterSummary}>
                     {/* Riptide */}
                     <div className={styles.characterContent}>
