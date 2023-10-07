@@ -27,7 +27,7 @@ export default function Home() {
           <div className="w-1/2 pl-8">
             <div style={{ width: '600px', height: '400px' }}>
               <Image
-                src="/cover.png"
+                src="./cover.png"
                 alt="Main Image"
                 layout="responsive"
                 width={600}

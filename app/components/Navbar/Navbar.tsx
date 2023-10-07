@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       <div className={`flex space-x-4 ${styles.navLinksContainer}`}>
         <div className="flex items-center"> {/* Create a flex container */}
           <Image
-            src="/transparent.png"
+            src="./transparent.png"
             alt="Logo"
             className={styles.navbarLogo}
             width={100}

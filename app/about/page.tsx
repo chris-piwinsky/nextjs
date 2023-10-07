@@ -31,7 +31,7 @@ const About: React.FC = () => {
                         </div>
                         <div className={styles.characterImage}>
                             <Image
-                                src="/cover.png"
+                                src="./cover.png"
                                 alt="Riptide"
                                 width={600}
                                 height={400}
@@ -44,7 +44,7 @@ const About: React.FC = () => {
                     <div className={styles.characterContent}>
                         <div className={styles.characterImage}>
                             <Image
-                                src="/cover.png"
+                                src="./cover.png"
                                 alt="Blaze"
                                 width={600}
                                 height={400}
@@ -75,7 +75,7 @@ const About: React.FC = () => {
                         </div>
                         <div className={styles.characterImage}>
                             <Image
-                                src="/cover.png"
+                                src="./cover.png"
                                 alt="KillJoy"
                                 width={600}
                                 height={400}
