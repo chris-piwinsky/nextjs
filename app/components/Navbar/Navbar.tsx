@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Instagram } from 'react-feather';
 import styles from './Navbar.module.css';
 
@@ -7,7 +8,7 @@ const Navbar: React.FC = () => {
     <nav className={styles.navbar}>
       <div className={`flex space-x-4 ${styles.navLinksContainer}`}>
         <div className="flex items-center"> {/* Create a flex container */}
-          <img
+          <Image
             src="/transparent.png"
             alt="Logo"
             className={styles.navbarLogo}
