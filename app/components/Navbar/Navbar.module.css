@@ -1,0 +1,28 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: #555; /* A slightly lighter color than #333 */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Corrected CSS selector */
+.nav ul li a:hover,
+.nav ul li a:focus {
+  color: red;
+  background-color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarLogo {
+  max-width: 100px; /* Adjust the logo's maximum width as needed */
+  margin-right: 20px; /* Add spacing between the logo and links */
+}

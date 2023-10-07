@@ -1,0 +1,43 @@
+/* Update these styles in your CSS file */
+
+.marqueeContainer {
+    background-color: #555;
+    padding: 10px;
+}
+
+.marqueeLink {
+    color: #0070f3;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.marqueeLink:hover {
+    color: #fff;
+}
+
+/* MarqueeBar.module.css */
+
+.linkSpacer {
+    margin-right: 20px;
+    /* Adjust the margin as needed for the desired spacing */
+}
+
+/* MarqueeBar.module.css */
+
+/* MarqueeBar.module.css */
+
+.linkGroup {
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.linkSeparator {
+    font-weight: bold;
+    margin-right: 20px;
+    /* Adjust the horizontal margin as needed */
+    color: #0070f3;
+}
