@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import logoImage from './images/cover.png'; 
 import MarqueeBar from './components/MarqueeBar/MarqueeBar';
 import Layout from './components/Layout/Layout';
 
@@ -27,7 +28,7 @@ export default function Home() {
           <div className="w-1/2 pl-8">
             <div style={{ width: '600px', height: '400px' }}>
               <Image
-                src="./cover.png"
+                src={logoImage}
                 alt="Main Image"
                 layout="responsive"
                 width={600}
