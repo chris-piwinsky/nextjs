@@ -1,53 +1,57 @@
-.aboutHeader {
-    text-align: center;
-    font-family: 'Your Cool Font', sans-serif;
-}
+/* About.module.css */
 
-.aboutText {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-}
-
+/* Common styles for character summaries */
 .characterSummary {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
-}
-
-.characterContent {
+  }
+  
+  /* Container for content and image on larger screens */
+  .characterContent {
     display: flex;
-    flex-direction: row;
-    /* Arrange children horizontally */
-    align-items: center;
-    /* Center vertically */
-}
-
-.characterName {
+    flex-direction: row; /* Arrange children horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Add space between text and image */
+  }
+  
+  /* Styles for character name */
+  .characterName {
     font-weight: bold;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-}
-
-
-.characterDescription {
-    flex: 1;
-    /* Take up remaining horizontal space */
-    text-align: center;
-    /* Center text within .characterDescription */
+  }
+  
+  /* Styles for character description */
+  .characterDescription {
+    flex: 1; /* Take up remaining horizontal space */
+    text-align: center; /* Center text within .characterDescription */
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    /* Add padding for spacing */
-}
-
-.characterImage {
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Styles for character images */
+  .characterImage {
     max-width: 100%;
     /* Make sure the image fits within the container */
     width: 300px;
     /* Set the desired width for the image (adjust as needed) */
     height: auto;
     /* Maintain aspect ratio */
-}
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .characterContent {
+      flex-direction: column; /* Stack children vertically */
+      align-items: center; /* Center horizontally */
+    }
+  
+    .characterImage {
+      width: 300px%; /* Make images full-width on smaller screens */
+    }
+  }
+  

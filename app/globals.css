@@ -30,34 +30,3 @@ body {
   padding-top: 80px; /* Adjust the value as needed */
 }
 
-/* Style for the heading */
-.my-heading {
-  font-size: 2rem; /* Adjust the font size as needed */
-  font-weight: bold;
-  color: #333; /* Adjust the text color as needed */
-  margin-bottom: 1rem; /* Adjust the margin as needed */
-}
-
-/* Style for the paragraph */
-.my-paragraph {
-  font-size: 1.25rem; /* Adjust the font size as needed */
-  color: #666; /* Adjust the text color as needed */
-  line-height: 1.5; /* Adjust the line height as needed */
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Custom styling for Next.js Link component */
-/* Adjust these styles as needed for your design */
-a.link {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  transition: opacity 0.2s ease;
-}
-
-a.link:hover {
-  opacity: 0.8; /* Slightly reduce opacity on hover */
-}

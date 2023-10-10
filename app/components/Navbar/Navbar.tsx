@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className='bg-slate-400 text-[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-10'>
+    <header className=' bg-slate-500  w-full ease-in duration-300 fixed top-0 left-0 z-10'>
       <nav className='max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4'>
         <div>
           <Link href="/" onClick={handleSmallerScreenNavigation}>
@@ -87,10 +87,10 @@ const Navbar: React.FC = () => {
 
           <div className='flex flex-col justify-center items-center mt-16'>
             <a href="mailto:your_email@example.com" target="_blank" rel="noopener noreferrer" className='py-5'>
-              <Mail size={40} />
+              <Mail size={25} />
             </a>
             <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer" className='py-5'>
-              <Instagram size={40} />
+              <Instagram size={25} />
             </a>
           </div>
         </div>
