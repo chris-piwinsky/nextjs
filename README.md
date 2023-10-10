@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [Next JS youtube tutorial](https://www.youtube.com/watch?v=ZVnjOPwW4ZA)
 - [Image optimization causing error locally](https://nextjs.org/docs/messages/export-image-api)
 - [Marquee bar](https://www.npmjs.com/package/react-fast-marquee)
+- [Responsive Navbar](https://www.youtube.com/watch?v=cshCn8FpDkk)

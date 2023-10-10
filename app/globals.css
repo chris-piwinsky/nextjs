@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;  
   background-repeat: repeat;
-
+  padding-top: 80px; /* Adjust the value as needed */
 }
 
 /* Style for the heading */
