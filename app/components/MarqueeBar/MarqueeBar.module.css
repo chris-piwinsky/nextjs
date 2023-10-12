@@ -1,7 +1,6 @@
-/* Update these styles in your CSS file */
-
 .marqueeContainer {
-    background-color: slategray; /* Set the background color */
+    background-color: slategray;
+    /* Set the background color */
     padding: 10px;
 }
 
@@ -16,28 +15,18 @@
     color: #fff;
 }
 
-/* MarqueeBar.module.css */
-
 .linkSpacer {
     margin-right: 20px;
-    /* Adjust the margin as needed for the desired spacing */
 }
-
-/* MarqueeBar.module.css */
-
-/* MarqueeBar.module.css */
 
 .linkGroup {
     display: flex;
     align-items: center;
-    /* Center vertically */
     justify-content: center;
-    /* Center horizontally */
 }
 
 .linkSeparator {
     font-weight: bold;
     margin-right: 20px;
-    /* Adjust the horizontal margin as needed */
     color: #0070f3;
 }

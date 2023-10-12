@@ -1,38 +1,41 @@
-/* Style for the heading */
 .myHeading {
-    font-size: 2rem; /* Adjust the font size as needed */
-    font-weight: bold;
-    color: #333; /* Adjust the text color as needed */
-    margin-bottom: 1rem; /* Adjust the margin as needed */
-  }
-  
-  /* Style for the paragraph */
-  .myParagraph {
-    font-size: 1.25rem; /* Adjust the font size as needed */
-    color: #666; /* Adjust the text color as needed */
-    line-height: 1.5; /* Adjust the line height as needed */
-  }
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
 
-  /* Main.module.css */
+.myParagraph {
+  font-size: 1.25rem;
+  color: #666;
+  line-height: 1.5;
+}
+
 .mainContainer {
-  /* Add some spacing between text and image on larger screens */
   justify-content: space-between;
 }
 
 .textContainer {
   flex: 1;
-  /* Make the text container take available space on larger screens */
-  padding: 0 20px; /* Add horizontal padding for spacing */
+  padding: 0 20px;
 }
 
 .imageContainer {
   max-width: 100%;
-  /* Ensure the image container doesn't overflow on smaller screens */
-  margin-top: 20px; /* Add some spacing between text and image on smaller screens */
+  margin-top: 20px;
 }
 
+
+/* Default styles for larger screens */
 .responsiveImage {
   max-width: 100%;
   width: 100%;
   height: auto;
+}
+
+/* Media query for screens with a maximum width of 600px (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .responsiveImage {
+    max-width: 80%;
+  }
 }

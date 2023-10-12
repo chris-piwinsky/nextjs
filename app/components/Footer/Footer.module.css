@@ -1,29 +1,25 @@
-/* Footer.module.css */
 .container {
-    padding: 20px; /* Add some padding for spacing */
+    padding: 20px;
     text-align: center;
-    color: black; /* Set the text color */
-    background-color: slategray /* Set the background color */
-  }
-  
-  .footerText {
-    margin: 0; /* Remove default margin */
-  }
-  
-  /* Add styles for the footer to make it sticky */
-  .footer {
+    color: black;
+    background-color: slategray;
+}
+
+.footerText {
+    margin: 0;
+}
+
+.footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #333; /* Set the background color */
+    background-color: #333;
     text-align: center;
-    z-index: 100; /* Ensure it's above other content */
-    transition: ease-in 0.3s; /* Add transition for smooth appearance */
-  }
-  
-  /* Optional: Add padding to the main content to prevent it from being hidden behind the footer */
-  .page-content {
-    padding-bottom: 60px; /* Adjust the value as needed */
-  }
-  
+    z-index: 100;
+    transition: ease-in 0.3s;
+}
+
+.page-content {
+    padding-bottom: 60px;
+}

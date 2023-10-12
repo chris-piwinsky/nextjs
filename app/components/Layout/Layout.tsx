@@ -1,7 +1,8 @@
+// Layout.js
 import React, { ReactNode } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import styles from './Layout.module.css'; // Import the CSS module
+import styles from './Layout.module.css';
 
 interface LayoutProps {
   children: ReactNode;
@@ -12,7 +13,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <div className={styles.pageContainer}>
       <Navbar />
       <div className={styles.contentContainer}>
-        {children}
+        <div className={styles.centeredContent}>{children}</div>
       </div>
       <Footer />
     </div>
@@ -20,4 +21,3 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 };
 
 export default Layout;
-

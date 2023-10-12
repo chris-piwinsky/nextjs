@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Link from 'next/link';
 import Image from 'next/image';
 import navImage from '../../images/transparent.png';
-import { Mail, Instagram } from 'react-feather'; // Import Mail and Instagram icons
+import { Mail, Instagram, Facebook } from 'react-feather'; // Import Mail and Instagram icons
 import styles from './Navbar.module.css';
 
 const Navbar: React.FC = () => {
@@ -51,6 +51,9 @@ const Navbar: React.FC = () => {
               <Mail size={25} />
             </a>
             <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#CEFF00]'>
+              <Facebook size={25} />
+            </a>
+            <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#CEFF00]'>
               <Instagram size={25} />
             </a>
           </div>
@@ -88,6 +91,9 @@ const Navbar: React.FC = () => {
           <div className='flex flex-col justify-center items-center mt-16'>
             <a href="mailto:your_email@example.com" target="_blank" rel="noopener noreferrer" className='py-5'>
               <Mail size={25} />
+            </a>
+            <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer" className='py-5'>
+              <Facebook size={25} />
             </a>
             <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer" className='py-5'>
               <Instagram size={25} />

@@ -3,10 +3,6 @@ import Main from './components/Main/Main'
 import MarqueeBar from './components/MarqueeBar/MarqueeBar';
 import Layout from './components/Layout/Layout';
 
-export const metadata = {
-  title: 'The Salty Curmudgeons',
-  description: 'Saltiness around the World!',
-}
 
 export default function Home() {
   return (

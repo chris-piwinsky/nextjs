@@ -1,5 +1,10 @@
 import './globals.css'
 
+export const metadata = {
+  title: 'The Salty Curmudgeons',
+  description: 'Saltiness around the World!',
+}
+
 export default function RootLayout({
   children,
 }: {
